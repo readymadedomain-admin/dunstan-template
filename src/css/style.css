@@ -592,7 +592,13 @@ main {
   flex-direction: column;
   /* Gap: 20px mobile, 24px desktop */
   gap: var(--layout-section-gap);
-  padding: 0 0 0 var(--layout-page-padding);
+  padding: 0 var(--layout-page-padding);
+}
+
+#projects .carousel {
+  width: 100%;
+  margin-left: 0;
+  padding: 0;
 }
 
 /* The Carousel Container */
@@ -646,7 +652,7 @@ main {
 }
 
 .project-item:last-child {
-  margin-right: var(--layout-page-padding);
+  margin-right: 0;
 }
 
 .project-item img {
@@ -709,7 +715,13 @@ main {
   gap: var(--layout-section-gap);
 
   /* Section Padding */
-  padding: 0 0 0 var(--layout-page-padding);
+  padding: 0 var(--layout-page-padding);
+}
+
+#reviews .carousel {
+  width: 100%;
+  margin-left: 0;
+  padding: 0;
 }
 
 .reviews-carousel::-webkit-scrollbar {
@@ -738,7 +750,7 @@ main {
 }
 
 .review-card:last-child {
-  margin-right: var(--layout-page-padding);
+  margin-right: 0;
 }
 
 /* Inner Review Wrapper (Rating + Quote) */
